@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="VMTKVesselEnhancement-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.nitrc.org/projects/slicervmtklvlst/">VMTKVesselEnhancement</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="VMTKVesselEnhancement-module.html">Package&nbsp;VMTKVesselEnhancement</a> ::
+        <a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-module.html">Module&nbsp;SlicerVMTKVesselEnhancementGUI</a> ::
+        Class&nbsp;VMTKVesselEnhancement
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class VMTKVesselEnhancement</h1><span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement">source&nbsp;code</a></span><br /><br />
+<center>
+<center>  <map id="uml_class_diagram_for_vmtkvess_3" name="uml_class_diagram_for_vmtkvess_3">
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#BuildGUI" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.BuildGUI" alt="" coords="17,36,260,54"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#TearDownGUI" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.TearDownGUI" alt="" coords="17,54,260,73"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#ProcessGUIEvents" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.ProcessGUIEvents" alt="" coords="17,73,260,92"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#RemoveGUIObservers" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.RemoveGUIObservers" alt="" coords="17,92,260,110"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#ProcessMRMLEvents" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.ProcessMRMLEvents" alt="" coords="17,110,260,129"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#UpdateMRML" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.UpdateMRML" alt="" coords="17,129,260,148"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#Destructor" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.Destructor" alt="" coords="17,148,260,166"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#RemoveMRMLNodeObservers" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.RemoveMRMLNodeObservers" alt="" coords="17,166,260,185"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#CreateOutVolumeNode" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.CreateOutVolumeNode" alt="" coords="17,185,260,204"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#AddGUIObservers" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.AddGUIObservers" alt="" coords="17,204,260,222"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#UpdateGUI" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.UpdateGUI" alt="" coords="17,222,260,241"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#RemoveLogicObservers" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.RemoveLogicObservers" alt="" coords="17,241,260,260"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#debug" title="debug prints to stdout (better than print because of flush)" alt="" coords="17,260,260,278"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html#__init__" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement.__init__" alt="" coords="17,278,260,297"/>
+<area shape="rect" href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement&#45;class.html" title="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI.VMTKVesselEnhancement" alt="" coords="16,10,261,298"/>
+</map>
+  <img src="uml_class_diagram_for_vmtkvess_3.gif" alt='' usemap="#uml_class_diagram_for_vmtkvess_3" ismap="ismap" class="graph-without-title" />
+</center></center>
+<hr />
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="debug"></a><span class="summary-sig-name">debug</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">msg</span>)</span><br />
+      debug prints to stdout (better than print because of flush)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.debug">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__init__"></a><span class="summary-sig-name">__init__</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="Destructor"></a><span class="summary-sig-name">Destructor</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.Destructor">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="RemoveMRMLNodeObservers"></a><span class="summary-sig-name">RemoveMRMLNodeObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.RemoveMRMLNodeObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="RemoveLogicObservers"></a><span class="summary-sig-name">RemoveLogicObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.RemoveLogicObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="AddGUIObservers"></a><span class="summary-sig-name">AddGUIObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.AddGUIObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="RemoveGUIObservers"></a><span class="summary-sig-name">RemoveGUIObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.RemoveGUIObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ProcessGUIEvents"></a><span class="summary-sig-name">ProcessGUIEvents</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">caller</span>,
+        <span class="summary-sig-arg">event</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.ProcessGUIEvents">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UpdateMRML"></a><span class="summary-sig-name">UpdateMRML</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.UpdateMRML">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UpdateGUI"></a><span class="summary-sig-name">UpdateGUI</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.UpdateGUI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="CreateOutVolumeNode"></a><span class="summary-sig-name">CreateOutVolumeNode</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.CreateOutVolumeNode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ProcessMRMLEvents"></a><span class="summary-sig-name">ProcessMRMLEvents</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">caller</span>,
+        <span class="summary-sig-arg">event</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.ProcessMRMLEvents">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="BuildGUI"></a><span class="summary-sig-name">BuildGUI</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.BuildGUI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="TearDownGUI"></a><span class="summary-sig-name">TearDownGUI</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="VMTKVesselEnhancement.SlicerVMTKVesselEnhancementGUI-pysrc.html#VMTKVesselEnhancement.TearDownGUI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="VMTKVesselEnhancement-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.nitrc.org/projects/slicervmtklvlst/">VMTKVesselEnhancement</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0beta1 on Fri Jul 31 02:00:36 2009
+    </td>
+    <td align="right" class="footer">
+      <a href="http://epydoc.sourceforge.net">http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie()
+  // -->
+</script>
+  
+</body>
+</html>

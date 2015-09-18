@@ -1,0 +1,12 @@
+<MRML>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CT LUNG: BRONCHI + 500" hideFromEditors="false" selectable="true" ModuleName="VMTKEasyLevelSetSegmentation" parameter0="PropagationScale -50" parameter1="CurvatureScale 60" parameter2="AdvectionScale 40" parameter3="Iterations 10" parameter4="LowerThreshold 500"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="ENHANCED CARDIAC BLOODPOOL MRI: CORONARIES + 160" hideFromEditors="false" selectable="true" ModuleName="VMTKEasyLevelSetSegmentation" parameter0="PropagationScale -10" parameter1="CurvatureScale 60" parameter2="AdvectionScale 50" parameter3="Iterations 10" parameter4="LowerThreshold 160"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CT HEAD: CEREBRAL ANEURYSM + 180-480" hideFromEditors="false" selectable="true" ModuleName="VMTKEasyLevelSetSegmentation" parameter0="PropagationScale -40" parameter1="CurvatureScale 60" parameter2="AdvectionScale 50" parameter3="Iterations 10" parameter4="LowerThreshold 180" parameter5="UpperThreshold 480"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CT ARM: VESSELS + 700" hideFromEditors="false" selectable="true" ModuleName="VMTKEasyLevelSetSegmentation" parameter0="PropagationScale -20" parameter1="CurvatureScale 20" parameter2="AdvectionScale 60" parameter3="Iterations 20" parameter4="LowerThreshold 700"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="ENHANCED CT ABDOMEN: LIVER VESSELS + 0.2" hideFromEditors="false" selectable="true" ModuleName="VMTKEasyLevelSetSegmentation" parameter0="PropagationScale 20" parameter1="CurvatureScale 70" parameter2="AdvectionScale 100" parameter3="Iterations 10" parameter4="LowerThreshold 0.2"></ScriptedModule>
+</MRML>

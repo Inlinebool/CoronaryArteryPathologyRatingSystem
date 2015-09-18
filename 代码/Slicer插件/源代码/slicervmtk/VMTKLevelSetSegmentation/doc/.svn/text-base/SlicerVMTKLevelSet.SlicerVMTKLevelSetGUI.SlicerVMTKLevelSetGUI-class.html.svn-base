@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="SlicerVMTKLevelSet-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.nitrc.org/projects/slicervmtklvlst/">SlicerVMTKLevelSet</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="SlicerVMTKLevelSet-module.html">Package&nbsp;SlicerVMTKLevelSet</a> ::
+        <a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-module.html">Module&nbsp;SlicerVMTKLevelSetGUI</a> ::
+        Class&nbsp;SlicerVMTKLevelSetGUI
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class SlicerVMTKLevelSetGUI</h1><span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI">source&nbsp;code</a></span><br /><br />
+<center>
+<center>  <map id="uml_class_diagram_for_slicervm_12" name="uml_class_diagram_for_slicervm_12">
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#ProcessGUIEvents" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.ProcessGUIEvents" alt="" coords="17,36,260,55"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#UpdateMRML" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.UpdateMRML" alt="" coords="17,55,260,73"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#Destructor" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.Destructor" alt="" coords="17,73,260,92"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#BuildGUI" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.BuildGUI" alt="" coords="17,92,260,111"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#RemoveLogicObservers" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.RemoveLogicObservers" alt="" coords="17,111,260,129"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#ProcessClickOnEvolTabs" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.ProcessClickOnEvolTabs" alt="" coords="17,129,260,148"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#__init__" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.__init__" alt="" coords="17,148,260,167"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#ProcessMRMLEvents" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.ProcessMRMLEvents" alt="" coords="17,167,260,185"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#GetHelper" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.GetHelper" alt="" coords="17,185,260,204"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#ProcessClickOnInitTabs" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.ProcessClickOnInitTabs" alt="" coords="17,204,260,223"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#SetUpdatingOn" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.SetUpdatingOn" alt="" coords="17,223,260,241"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#UnLockEvolInterface" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.UnLockEvolInterface" alt="" coords="17,241,260,260"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#RemoveMRMLNodeObservers" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.RemoveMRMLNodeObservers" alt="" coords="17,260,260,279"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html#UnLockInitInterface" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI.UnLockInitInterface" alt="" coords="17,297,260,316"/>
+<area shape="rect" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI&#45;class.html" title="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI.SlicerVMTKLevelSetGUI" alt="" coords="16,11,261,317"/>
+</map>
+  <img src="uml_class_diagram_for_slicervm_12.gif" alt='' usemap="#uml_class_diagram_for_slicervm_12" ismap="ismap" class="graph-without-title" />
+</center></center>
+<hr />
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__init__"></a><span class="summary-sig-name">__init__</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="Destructor"></a><span class="summary-sig-name">Destructor</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.Destructor">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="RemoveMRMLNodeObservers"></a><span class="summary-sig-name">RemoveMRMLNodeObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.RemoveMRMLNodeObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="RemoveLogicObservers"></a><span class="summary-sig-name">RemoveLogicObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.RemoveLogicObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="AddGUIObservers"></a><span class="summary-sig-name">AddGUIObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.AddGUIObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ProcessClickOnInitTabs"></a><span class="summary-sig-name">ProcessClickOnInitTabs</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.ProcessClickOnInitTabs">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ProcessClickOnEvolTabs"></a><span class="summary-sig-name">ProcessClickOnEvolTabs</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.ProcessClickOnEvolTabs">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="RemoveGUIObservers"></a><span class="summary-sig-name">RemoveGUIObservers</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.RemoveGUIObservers">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ProcessGUIEvents"></a><span class="summary-sig-name">ProcessGUIEvents</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">caller</span>,
+        <span class="summary-sig-arg">event</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.ProcessGUIEvents">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UpdateMRML"></a><span class="summary-sig-name">UpdateMRML</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.UpdateMRML">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UpdateGUI"></a><span class="summary-sig-name">UpdateGUI</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.UpdateGUI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ProcessMRMLEvents"></a><span class="summary-sig-name">ProcessMRMLEvents</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">caller</span>,
+        <span class="summary-sig-arg">event</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.ProcessMRMLEvents">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="BuildGUI"></a><span class="summary-sig-name">BuildGUI</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.BuildGUI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="TearDownGUI"></a><span class="summary-sig-name">TearDownGUI</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.TearDownGUI">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="GetHelper"></a><span class="summary-sig-name">GetHelper</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.GetHelper">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="GetMyLogic"></a><span class="summary-sig-name">GetMyLogic</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.GetMyLogic">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UnLockInitInterface"></a><span class="summary-sig-name">UnLockInitInterface</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">action</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.UnLockInitInterface">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UnLockEvolInterface"></a><span class="summary-sig-name">UnLockEvolInterface</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">action</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.UnLockEvolInterface">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="SetUpdatingOn"></a><span class="summary-sig-name">SetUpdatingOn</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.SetUpdatingOn">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="SetUpdatingOff"></a><span class="summary-sig-name">SetUpdatingOff</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.SetUpdatingOff">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ChangeInfoLabel"></a><span class="summary-sig-name">ChangeInfoLabel</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">text</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.ChangeInfoLabel">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="UpdateGUIByState"></a><span class="summary-sig-name">UpdateGUIByState</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetGUI-pysrc.html#SlicerVMTKLevelSetGUI.UpdateGUIByState">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="SlicerVMTKLevelSet-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.nitrc.org/projects/slicervmtklvlst/">SlicerVMTKLevelSet</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0beta1 on Tue Apr 21 17:56:24 2009
+    </td>
+    <td align="right" class="footer">
+      <a href="http://epydoc.sourceforge.net">http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie()
+  // -->
+</script>
+  
+</body>
+</html>

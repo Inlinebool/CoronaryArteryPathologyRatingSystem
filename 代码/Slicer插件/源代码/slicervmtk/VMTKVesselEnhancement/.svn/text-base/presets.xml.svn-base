@@ -1,0 +1,10 @@
+<MRML>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CT LUNG: BRONCHI with Sato" hideFromEditors="false" selectable="true" ModuleName="VMTKVesselEnhancement" parameter0="SATO_alpha 0.5" parameter1="SATO_alpha2 2.0" parameter2="SATO_numberOfSigmaSteps 10" parameter3="SATO_sigmaMin 0.2" parameter4="SATO_sigmaMax 4.0" parameter5="raisedPage 1" parameter6="SATO_usePhysicalUnits 0"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CARDIAC BLOODPOOL MRI: CORONARIES with Sato" hideFromEditors="false" selectable="true" ModuleName="VMTKVesselEnhancement" parameter0="SATO_alpha 0.5" parameter1="SATO_alpha2 2.0" parameter2="SATO_numberOfSigmaSteps 10" parameter3="SATO_sigmaMin 0.1" parameter4="SATO_sigmaMax 2.0" parameter5="raisedPage 1" parameter6="SATO_usePhysicalUnits 0"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CT HEAD: VESSELS OF A CEREBRAL ANEURYSM with Sato" hideFromEditors="false" selectable="true" ModuleName="VMTKVesselEnhancement" parameter0="SATO_alpha 0.5" parameter1="SATO_alpha2 2.0" parameter2="SATO_numberOfSigmaSteps 10" parameter3="SATO_sigmaMin 0.2" parameter4="SATO_sigmaMax 2.0" parameter5="raisedPage 1" parameter6="SATO_usePhysicalUnits 0"></ScriptedModule>
+<ScriptedModule
+ id="vtkMRMLScriptedModuleNode1" name="CT ABDOMEN: LIVER VESSELS with Frangi" hideFromEditors="false" selectable="true" ModuleName="VMTKVesselEnhancement" parameter0="FRANGI_alpha 0.3" parameter1="FRANGI_beta 500" parameter2="FRANGI_numberOfSigmaSteps 10" parameter3="FRANGI_sigmaMin 2.5" parameter4="FRANGI_sigmaMax 4.5" parameter5="raisedPage 0" parameter6="FRANGI_usePhysicalUnits 1" parameter7="FRANGI_gamma 3"></ScriptedModule>
+</MRML>

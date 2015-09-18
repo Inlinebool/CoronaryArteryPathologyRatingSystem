@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/"> 
+        <file>Images/stenosiswelcome.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="SlicerVMTKLevelSet-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.nitrc.org/projects/slicervmtklvlst/">SlicerVMTKLevelSet</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="SlicerVMTKLevelSet-module.html">Package&nbsp;SlicerVMTKLevelSet</a> ::
+        Module&nbsp;SlicerVMTKLevelSetContainer
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer-module.html">Module SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"> </tt>
+<a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"><tt class="py-comment"># object which saves a volumeNode and a threshold</tt> </tt>
+<a name="SlicerVMTKLevelSetContainer"></a><div id="SlicerVMTKLevelSetContainer-def"><a name="L3"></a><tt class="py-lineno"> 3</tt> <a class="py-toggle" href="#" id="SlicerVMTKLevelSetContainer-toggle" onclick="return toggle('SlicerVMTKLevelSetContainer');">-</a><tt class="py-line"><tt class="py-comment"></tt><tt class="py-keyword">class</tt> <a class="py-def-name" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer.SlicerVMTKLevelSetContainer-class.html">SlicerVMTKLevelSetContainer</a><tt class="py-op">(</tt><tt class="py-base-class">object</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SlicerVMTKLevelSetContainer-collapsed" style="display:none;" pad="++" indent="++++"></div><div id="SlicerVMTKLevelSetContainer-expanded"><a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"> </tt>
+<a name="SlicerVMTKLevelSetContainer.__init__"></a><div id="SlicerVMTKLevelSetContainer.__init__-def"><a name="L5"></a><tt class="py-lineno"> 5</tt> <a class="py-toggle" href="#" id="SlicerVMTKLevelSetContainer.__init__-toggle" onclick="return toggle('SlicerVMTKLevelSetContainer.__init__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer.SlicerVMTKLevelSetContainer-class.html#__init__">__init__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt><tt class="py-param">node</tt><tt class="py-op">,</tt><tt class="py-param">threshold</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SlicerVMTKLevelSetContainer.__init__-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="SlicerVMTKLevelSetContainer.__init__-expanded"><a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_node</tt> <tt class="py-op">=</tt> <tt class="py-name">node</tt> </tt>
+<a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_threshold</tt> <tt class="py-op">=</tt> <tt class="py-name">threshold</tt> </tt>
+</div><a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"> </tt>
+<a name="SlicerVMTKLevelSetContainer.GetNode"></a><div id="SlicerVMTKLevelSetContainer.GetNode-def"><a name="L11"></a><tt class="py-lineno">11</tt> <a class="py-toggle" href="#" id="SlicerVMTKLevelSetContainer.GetNode-toggle" onclick="return toggle('SlicerVMTKLevelSetContainer.GetNode');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer.SlicerVMTKLevelSetContainer-class.html#GetNode">GetNode</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SlicerVMTKLevelSetContainer.GetNode-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="SlicerVMTKLevelSetContainer.GetNode-expanded"><a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line"> </tt>
+<a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_node</tt> </tt>
+</div><a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line"> </tt>
+<a name="SlicerVMTKLevelSetContainer.GetThreshold"></a><div id="SlicerVMTKLevelSetContainer.GetThreshold-def"><a name="L15"></a><tt class="py-lineno">15</tt> <a class="py-toggle" href="#" id="SlicerVMTKLevelSetContainer.GetThreshold-toggle" onclick="return toggle('SlicerVMTKLevelSetContainer.GetThreshold');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer.SlicerVMTKLevelSetContainer-class.html#GetThreshold">GetThreshold</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SlicerVMTKLevelSetContainer.GetThreshold-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="SlicerVMTKLevelSetContainer.GetThreshold-expanded"><a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line"> </tt>
+<a name="L17"></a><tt class="py-lineno">17</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_threshold</tt> </tt>
+</div><a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line"> </tt>
+<a name="SlicerVMTKLevelSetContainer.SetNode"></a><div id="SlicerVMTKLevelSetContainer.SetNode-def"><a name="L19"></a><tt class="py-lineno">19</tt> <a class="py-toggle" href="#" id="SlicerVMTKLevelSetContainer.SetNode-toggle" onclick="return toggle('SlicerVMTKLevelSetContainer.SetNode');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer.SlicerVMTKLevelSetContainer-class.html#SetNode">SetNode</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt><tt class="py-param">newnode</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SlicerVMTKLevelSetContainer.SetNode-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="SlicerVMTKLevelSetContainer.SetNode-expanded"><a name="L20"></a><tt class="py-lineno">20</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_node</tt> <tt class="py-op">=</tt> <tt class="py-name">newnode</tt> </tt>
+</div><a name="L21"></a><tt class="py-lineno">21</tt>  <tt class="py-line"> </tt>
+<a name="SlicerVMTKLevelSetContainer.SetThreshold"></a><div id="SlicerVMTKLevelSetContainer.SetThreshold-def"><a name="L22"></a><tt class="py-lineno">22</tt> <a class="py-toggle" href="#" id="SlicerVMTKLevelSetContainer.SetThreshold-toggle" onclick="return toggle('SlicerVMTKLevelSetContainer.SetThreshold');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="SlicerVMTKLevelSet.SlicerVMTKLevelSetContainer.SlicerVMTKLevelSetContainer-class.html#SetThreshold">SetThreshold</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt><tt class="py-param">newthreshold</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SlicerVMTKLevelSetContainer.SetThreshold-collapsed" style="display:none;" pad="++" indent="++++++++"></div><div id="SlicerVMTKLevelSetContainer.SetThreshold-expanded"><a name="L23"></a><tt class="py-lineno">23</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">_threshold</tt> <tt class="py-op">=</tt> <tt class="py-name">newthreshold</tt> </tt>
+</div></div><a name="L24"></a><tt class="py-lineno">24</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="SlicerVMTKLevelSet-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://www.nitrc.org/projects/slicervmtklvlst/">SlicerVMTKLevelSet</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0beta1 on Tue Apr 21 17:56:27 2009
+    </td>
+    <td align="right" class="footer">
+      <a href="http://epydoc.sourceforge.net">http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie()
+  // -->
+</script>
+  
+</body>
+</html>
