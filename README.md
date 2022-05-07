@@ -8,15 +8,9 @@ A coronary artery pathology rating system based on Syntax scoring system
 
 
 文件说明：
-\冠状动脉病变评分系统\开源软件
-开源软件有Slicer和VMTK，由于最新版本的Slicer插件接口比较复杂，目前采用的是Slicer3.6版本。
-VMTK是一个分析血管的开源软件，论文中的中心线提取和血管病理结构分析的算法是参考VMTK。
 
 \冠状动脉病变评分系统\Syntax
 介绍Syntax评分的文件
-
-冠状动脉病变评分系统\病例数据
-浙大第二附属医院周绮晶医生（电话13588855631 QQ13939736 ）给的真实病人数据。
 
 \冠状动脉病变评分系统\代码
 \Slicer插件
